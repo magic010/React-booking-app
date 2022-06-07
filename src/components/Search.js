@@ -18,9 +18,12 @@ const Search = (props) => {
       if (res.length > 0) {
         res.map((item) => {
           const data = booksData.find((book) => book.id === item.id);
+
           data && data.shelf
             ? (item.shelf = data.shelf)
             : (item.shelf = "none");
+
+          return item;
         });
         setSearchedBooks(res);
         setNoResult(false);
