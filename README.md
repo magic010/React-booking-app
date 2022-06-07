@@ -12,7 +12,7 @@ You can set the states of the book and move it between shelves (Currently Readin
 The project uses Node.js and the Create-React-App starter.  If you do not have Node >= 6.x installed, you can download it here: [Node.js](https://nodejs.org/en/)
 
 ```
-git clone https://github.com/ShimaaHussien600/MyReadsProject.git
+git clone https://github.com/magic010/React-booking-app
 ```
 
 - install all project dependencies with
