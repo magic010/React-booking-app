@@ -9,7 +9,7 @@ You can set the states of the book and move it between shelves (Currently Readin
 
 ## How to Load the App
 
-The project uses Node.js and the Create-React-App starter.  If you do not have Node >= 6.x installed, you can download it here: [Node.js](https://nodejs.org/en/)
+The project uses the Create-React-App starter.
 
 ```
 git clone https://github.com/magic010/React-booking-app
@@ -29,10 +29,10 @@ npm start
 
 A new browser window should automatically open displaying the app.  If it doesn't, navigate to [http://localhost:3000/](http://localhost:3000/) in your browser
 
-![Home Page](src/screenshots/homePage.png "Home Page")
-
 ## How to Use the App
 * Books are Displayed into three shelves: Currently Reading, Want to Read and Read.
+
+
 * You can move any book from it's shelf to another or remove a book from shelf, click on the green button on  the book cover
 
 
